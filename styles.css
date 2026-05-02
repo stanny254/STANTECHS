@@ -455,7 +455,16 @@ nav ul li a.active {
   max-width: var(--max-width);
   margin: 0 auto;
 }
+.project {
+  margin-bottom: 60px;
+}
 
+.project iframe {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
 .portfolio-item {
   position: relative;
   border-radius: var(--radius-md);
